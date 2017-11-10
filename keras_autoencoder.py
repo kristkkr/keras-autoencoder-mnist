@@ -66,19 +66,6 @@ print(decoded_imgs[0].shape)
 print(x_test[0].shape)
 
 
-# plot encoded images - WHY THE F
-# n = 10  # how many digits we will display
-# plt.figure(figsize=(20, 4))
-# for i in range(n):
-#     # display original
-#     ax = plt.subplot(1, n, i + 1)
-#
-#     plt.imshow(encoded_imgs[i])
-#     plt.gray()
-#     ax.get_xaxis().set_visible(False)
-#     ax.get_yaxis().set_visible(False)
-# plt.show()
-
 # plot decoded images
 n = 10  # how many digits we will display
 plt.figure(figsize=(20, 4))
